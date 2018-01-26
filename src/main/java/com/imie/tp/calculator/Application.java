@@ -1,9 +1,23 @@
+/**
+ * Application calculatrice.
+ * TP Java - gradle - jenkins for IMIE
+ */
+
 package com.imie.tp.calculator;
 
+/**
+ * Application calculatrice.
+ * @author BenBen
+ *
+ */
 public class Application {
-
-    public static void main(String[] args) {
-
+    /**
+     * Main class for application.
+     */
+    public static void main() {
+        /**
+         * isEnd to quit the application
+         */
         boolean isEnd = false;
         do {
         // Process...
