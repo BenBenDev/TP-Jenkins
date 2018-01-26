@@ -4,9 +4,7 @@
  */
 
 package com.imie.tp.calculator;
-import com.imie.tp.calculator.operation.AdditionOperation;
 import com.imie.tp.calculator.utils.KeyboardUtils;
-import com.imie.tp.calculator.utils.HistoryManager;
 
 /**
  * Application calculatrice.
