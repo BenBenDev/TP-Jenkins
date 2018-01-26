@@ -13,6 +13,8 @@ public class HistoryManager {
         return instance;
     }
 
+    private HistoryManager() { }
+
     private ArrayList<String> cache = new ArrayList<String>();
 
     public void addOperation(String operation) {
