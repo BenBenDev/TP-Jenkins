@@ -33,13 +33,5 @@ public class Calculator {
      */
 
 
-//    @Test
-//    public void testMake() {
-//        AdditionOperation ope = new AdditionOperation(1);
-//        Assert.assertNotNull(ope);
-//
-//        ope.make(4);
-//        Assert.assertEquals(5, ope.currentValue);
-//    }
 
 }
