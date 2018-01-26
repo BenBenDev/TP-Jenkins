@@ -31,7 +31,9 @@ public class Calculator {
     /**
      * Test method for {@link com.imie.calculator.Addition#make(int)}.
      */
-    @Test
+
+
+//    @Test
 //    public void testMake() {
 //        AdditionOperation ope = new AdditionOperation(1);
 //        Assert.assertNotNull(ope);
