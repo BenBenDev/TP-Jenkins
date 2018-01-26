@@ -41,6 +41,33 @@ public class Application {
             
             String val = KeyboardUtils.readFromKeyboard("please enter your choice :");
             
+            switch (val) {
+            /**
+             * case of an addition asked.
+             */
+            case "1" :
+                System.out.println("addition");
+                break;
+            /**
+             *  case of a substraction asked.
+             */
+            case "2" :
+                System.out.println("substraction");
+                break;
+            /**
+            *  Exit is asked.
+            */
+            case "9" :
+                System.out.println("See you...");
+                isEnd = true;
+                break;
+            /**
+             *  All other cases (ie. error).
+             */
+            default :{
+                System.out.println("autre choix");
+                }
+            }
         // If enter 1
         // Display & Ask "Enter Value a : "
         // Display & Ask "Enter Value b : "
@@ -51,7 +78,7 @@ public class Application {
         // Display last calculate :
         //    1 + 1 = 2
         //    2 * 3 = 6
-            isEnd = true;
+
         } while (isEnd == false);
         // If enter 9 => Quit application
 
