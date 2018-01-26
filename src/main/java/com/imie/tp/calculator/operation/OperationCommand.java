@@ -7,8 +7,8 @@ package com.imie.tp.calculator.operation;
  * @author BenBen
  *
  */
-public interface OperationCommand
-{
+public interface OperationCommand{
+    
     void make(float value);
 
     float getCurrentValue();

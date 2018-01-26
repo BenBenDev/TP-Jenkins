@@ -1,5 +1,5 @@
 /**
- * description for KeyboardUtils
+ * description for KeyboardUtils.
  */
 package com.imie.tp.calculator.utils;
 
