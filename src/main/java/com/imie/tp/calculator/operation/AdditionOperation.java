@@ -10,7 +10,7 @@ package com.imie.tp.calculator.operation;
 public class AdditionOperation extends OperationCommandBase {
     /**
      * calls the parent's constructor.
-     * @param baseValue
+     * @param baseValue is a variable
      */
     public AdditionOperation(final float baseValue) {
         super(baseValue);
@@ -18,7 +18,7 @@ public class AdditionOperation extends OperationCommandBase {
 
     /**
      * does the addition.
-     * @overide make method
+     * overide the make method
      */
     public void make(float value) {
       this.currentValue += value;

@@ -14,6 +14,7 @@ import com.imie.tp.calculator.utils.KeyboardUtils;
 public class Application {
     /**
      * Main class for application.
+     * @param args
      */
     public static void main(final String[] args) {
         /**

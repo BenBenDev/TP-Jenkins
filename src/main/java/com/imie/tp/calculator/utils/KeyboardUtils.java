@@ -14,6 +14,7 @@ public final class KeyboardUtils {
     /**
      * get the keyboard entries.
      * receive : text to display
+     * @param displayAsk is the text to display before answering keyboard
      * @return : text entered with keayboard
      */
     public static String readFromKeyboard(String displayAsk) {

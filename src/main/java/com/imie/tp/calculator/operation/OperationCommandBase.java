@@ -13,7 +13,7 @@ public abstract class OperationCommandBase implements OperationCommand {
       
     /**
      * Sets the currentValue variable to baseValue.
-     * @param baseValue
+     * @param baseValue is a variable
      */
     public OperationCommandBase(float baseValue){
       

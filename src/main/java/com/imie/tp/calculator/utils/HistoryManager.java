@@ -25,6 +25,7 @@ public class HistoryManager {
 
     /**
      * adds an operation in the history.
+     * @param operation is an operation to add in history
      */
     public void addOperation(String operation) {
         this.cache.add(operation);
