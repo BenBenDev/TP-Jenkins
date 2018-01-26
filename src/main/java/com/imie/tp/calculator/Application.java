@@ -21,6 +21,7 @@ public class Application {
             System.out.println("- 4 : Multiplication");
             System.out.println("- 5 : Display History");
             System.out.println("- 9 : Quit");
+            
         // If enter 1
         // Display & Ask "Enter Value a : "
         // Display & Ask "Enter Value b : "

@@ -13,7 +13,7 @@ public class Calculator {
 
     @Test
     public void test() {
-        fail("Not yet implemented");
+        
     }
 
 }
