@@ -8,9 +8,7 @@ public final class KeyboardUtils {
         Scanner keyboard = new Scanner(System.in);
 
         System.out.println(displayAsk);
-
-        return keyboard.nextLine();
-
         keyboard.close();
+        return keyboard.nextLine();
     }
 }

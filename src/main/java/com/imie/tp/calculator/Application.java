@@ -27,6 +27,8 @@ public class Application {
         // If enter 9 => Quit application
 
         //TODO
+        
+        System.out.println("END");
     }
 
 }
