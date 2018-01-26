@@ -1,5 +1,5 @@
 /**
- * HistoryManager has the history of each operation
+ * HistoryManager has the history of each operation.
  */
 package com.imie.tp.calculator.utils;
 
@@ -17,7 +17,7 @@ public class HistoryManager {
     }
 
     /**
-     * initializing
+     * initializing.
      */
     private HistoryManager() { }
 
@@ -31,14 +31,14 @@ public class HistoryManager {
     }
 
     /**
-     * clears all operation in the history
+     * clears all operation in the history.
      */
     public void clear() {
         this.cache.clear();
     }
 
     /**
-     * checks the history and returns it
+     * checks the history and returns it.
      * @return a text with all history
      */
     public String getHistory() {

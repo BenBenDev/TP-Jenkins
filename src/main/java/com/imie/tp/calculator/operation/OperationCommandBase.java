@@ -3,10 +3,19 @@
  */
 package com.imie.tp.calculator.operation;
 
+/**
+ * implementation of method.
+ * @author BenBen
+ *
+ */
 public abstract class OperationCommandBase implements OperationCommand {
     public float currentValue = 10;
       
-  public OperationCommandBase(float baseValue){
+    /**
+     * Sets the currentValue variable to baseValue.
+     * @param baseValue
+     */
+    public OperationCommandBase(float baseValue){
       
             this.currentValue = baseValue;
   }
