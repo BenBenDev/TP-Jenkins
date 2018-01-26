@@ -4,6 +4,9 @@
  */
 
 package com.imie.tp.calculator;
+import com.imie.tp.calculator.operation.AdditionOperation;
+import com.imie.tp.calculator.utils.KeyboardUtils;
+import com.imie.tp.calculator.utils.HistoryManager;
 
 /**
  * Application calculatrice.
@@ -35,6 +38,8 @@ public class Application {
             System.out.println("- 4 : Multiplication");
             System.out.println("- 5 : Display History");
             System.out.println("- 9 : Quit");
+            
+            String val = KeyboardUtils.readFromKeyboard("please enter your choice :");
             
         // If enter 1
         // Display & Ask "Enter Value a : "

@@ -17,16 +17,16 @@ public class AdditionOperation extends OperationCommandBase {
     }
 
     /**
-     * do the addition
+     * does the addition.
      * @overide make method
      */
     public void make(float value) {
-      //  this.baseValue += value;
+      this.currentValue += value;
     }
 
     public float getCurrentValue() {
-        // TODO Auto-generated method stub
-        return 0;
+        
+        return this.currentValue;
     }
 
 }
