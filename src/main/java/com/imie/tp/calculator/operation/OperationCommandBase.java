@@ -1,3 +1,6 @@
+/**
+ * description for AdditionCommandBase
+ */
 package com.imie.tp.calculator.operation;
 
 public abstract class OperationCommandBase implements OperationCommand {

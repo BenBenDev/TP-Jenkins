@@ -1,3 +1,6 @@
+/**
+ * description for AdditionCommand
+ */
 package com.imie.tp.calculator.operation;
 
 public interface OperationCommand {

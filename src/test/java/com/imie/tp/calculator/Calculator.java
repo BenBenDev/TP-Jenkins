@@ -1,3 +1,6 @@
+/**
+ * description for Tests in Calculator
+ */
 package com.imie.tp.calculator;
 
 import static org.junit.Assert.*;

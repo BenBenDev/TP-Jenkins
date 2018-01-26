@@ -1,3 +1,6 @@
+/**
+ * description for HistoryManager
+ */
 package com.imie.tp.calculator.utils;
 
 import java.util.ArrayList;

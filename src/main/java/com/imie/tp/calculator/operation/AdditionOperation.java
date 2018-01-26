@@ -18,7 +18,7 @@ public class AdditionOperation extends OperationCommandBase {
 
     /**
      * do the addition
-     * @overide make
+     * @overide make method
      */
     public void make(float value) {
       //  this.baseValue += value;
