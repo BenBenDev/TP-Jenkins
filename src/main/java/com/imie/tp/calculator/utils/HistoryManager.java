@@ -32,7 +32,7 @@ public final class HistoryManager {
      * adds an operation in the history.
      * @param operation is an operation to add in history
      */
-    public void addOperation(String operation) {
+    public final void addOperation(String operation) {
         this.cache.add(operation);
     }
 
@@ -48,9 +48,9 @@ public final class HistoryManager {
      * @return a text with all history
      */
     public String getHistory() {
-        StringBuilder stringBuilder = new StringBuilder();
+        final StringBuilder stringBuilder = new StringBuilder();
 
-        for (String string : cache) {
+        for (final String string : cache) {
             stringBuilder.append(string + "\n");
         }
 
