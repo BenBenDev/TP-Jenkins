@@ -15,7 +15,7 @@ public class Application {
     /**
      * Main class for application.
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         /**
          * isEnd to quit the application
          */
@@ -37,7 +37,7 @@ public class Application {
             System.out.println("- 5 : Display History");
             System.out.println("- 9 : Quit");
             
-            String val = KeyboardUtils.readFromKeyboard("please enter your choice :");
+            final String val = KeyboardUtils.readFromKeyboard("please enter your choice :");
             
             switch (val) {
             /**
@@ -64,6 +64,7 @@ public class Application {
              */
             default :{
                 System.out.println("autre choix");
+                break;
                 }
             }
         // If enter 1
@@ -77,7 +78,7 @@ public class Application {
         //    1 + 1 = 2
         //    2 * 3 = 6
 
-        } while (isEnd == false);
+        } while (!isEnd);
         // If enter 9 => Quit application
 
         //TODO

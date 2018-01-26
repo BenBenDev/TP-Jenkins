@@ -12,7 +12,7 @@ public class AdditionOperation extends OperationCommandBase {
      * calls the parent's constructor.
      * @param baseValue
      */
-    public AdditionOperation(float baseValue) {
+    public AdditionOperation(final float baseValue) {
         super(baseValue);
     }
 
