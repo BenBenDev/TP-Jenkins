@@ -9,13 +9,15 @@ import java.util.Scanner;
  * Util : get the keyboard entries.
  */
 public final class KeyboardUtils {
+    private static Scanner keyboard;
+
     /**
      * get the keyboard entries.
      * receive : text to display
      * @return : text entered with keayboard
      */
     public static String readFromKeyboard(String displayAsk) {
-        Scanner keyboard = new Scanner(System.in);
+        keyboard = new Scanner(System.in);
 
         System.out.println(displayAsk);
         return keyboard.nextLine();
