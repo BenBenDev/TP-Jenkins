@@ -14,7 +14,7 @@ public class Application {
     /**
      * Main class for application.
      */
-    public static void main() {
+    public static void main(String[] args) {
         /**
          * isEnd to quit the application
          */
