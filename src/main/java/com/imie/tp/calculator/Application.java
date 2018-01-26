@@ -5,6 +5,7 @@
 
 package com.imie.tp.calculator;
 import com.imie.tp.calculator.utils.KeyboardUtils;
+import com.imie.tp.calculator.utils.HistoryManager;
 
 /**
  * Application calculatrice.
@@ -33,7 +34,7 @@ public class Application {
             System.out.println("Type of Operation :");
             System.out.println("- 1 : Addition");
             System.out.println("- 2 : Subtraction");
-            System.out.println("- 3 : Diviside");
+            System.out.println("- 3 : Divide");
             System.out.println("- 4 : Multiplication");
             System.out.println("- 5 : Display History");
             System.out.println("- 9 : Quit");
@@ -46,12 +47,36 @@ public class Application {
              */
             case "1" :
                 System.out.println("addition");
+                HistoryManager manager = HistoryManager.getInstance();
+                manager.addOperation("addition");
                 break;
             /**
              *  case of a substraction asked.
              */
             case "2" :
                 System.out.println("substraction");
+                break;
+                
+            /**
+             *  case of a substraction asked.
+             */
+            case "3" :
+                System.out.println("division");
+                break;
+            /**
+             *  case of a substraction asked.
+             */
+            case "4" :
+                System.out.println("multiplication");
+                break;
+            /**
+             *  case of a substraction asked.
+             */
+            case "5" :
+                System.out.println("History :");
+                HistoryManager history = HistoryManager.getInstance();
+                String histo = history.getHistory();
+                System.out.println(histo);
                 break;
             /**
             *  Exit is asked.

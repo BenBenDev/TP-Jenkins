@@ -22,7 +22,7 @@ public class Calculator {
      * Test method for {@link com.imie.calculator.Addition#make(int)}.
      */
     @Test
-    public void testGeCurrentValuet() {
+    public void testGeCurrentValue() {
         AdditionOperation ope = new AdditionOperation(5);
         Assert.assertNotNull(ope);
         Assert.assertEquals(5, ope.getCurrentValue());
