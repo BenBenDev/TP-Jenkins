@@ -1,16 +1,24 @@
+/**
+ *
+ */
 package com.imie.tp.calculator.operation;
 
+/**
+ * Operation is an addition.
+ * @author BenBen
+ */
 public class AdditionOperation extends OperationCommandBase {
-
+    /**
+     * calls the parent's constructor.
+     * @param baseValue
+     */
     public AdditionOperation(float baseValue) {
         super(baseValue);
-        // TODO Auto-generated constructor stub
     }
 
     @Override
     public void make(float value) {
-        // TODO Auto-generated method stub
-
+        this.baseValue += value;
     }
 
     public float getCurrentValue() {
