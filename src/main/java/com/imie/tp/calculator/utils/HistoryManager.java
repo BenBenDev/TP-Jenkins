@@ -8,8 +8,13 @@ import java.util.ArrayList;
 /**
  * HistoryManager has the history of each operation.
  */
-public class HistoryManager {
+public final class HistoryManager {
 
+    /**
+     * field declaration. History of operations.
+     */
+    private final ArrayList<String> cache = new ArrayList<String>();
+    
     // Singleton
     private static final HistoryManager instance = new HistoryManager();
     public static HistoryManager getInstance() {
@@ -21,7 +26,7 @@ public class HistoryManager {
      */
     private HistoryManager() { }
 
-    private ArrayList<String> cache = new ArrayList<String>();
+    
 
     /**
      * adds an operation in the history.
