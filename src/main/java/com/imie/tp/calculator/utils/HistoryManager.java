@@ -15,8 +15,15 @@ public final class HistoryManager {
      */
     private final ArrayList<String> cache = new ArrayList<String>();
     
-    // Singleton
+    /**
+     * description to be written.
+     */
     private static final HistoryManager instance = new HistoryManager();
+    
+    /**
+     * this is a method.
+     * @return some instance
+     */
     public static HistoryManager getInstance() {
         return instance;
     }
